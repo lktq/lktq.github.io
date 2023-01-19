@@ -1,54 +1,36 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2113.6">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #000000; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #000000; -webkit-text-stroke: #000000; min-height: 15.0px}
-    span.s1 {font-kerning: none}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;html&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;head&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;title&gt;Bất phương trình bậc 2&lt;/title&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta charset="utf-8"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;link href=“decoration.css" rel="stylesheet" type="text/css"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/head&gt;</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">  </span></span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;body&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div id="background"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;h1&gt;Giải bất phương trình bậc 2 (ax^2 + bx+ c)&lt;/h1&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="flex-container"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="flex-child" id="input"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;input id="a" value="0"&gt; x &lt;sup&gt;2&lt;/sup&gt; + &lt;input id="b" value="0"&gt; x +<span class="Apple-converted-space">  </span>&lt;input id="c" value="0"&gt;<span class="Apple-converted-space"> </span></span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;label for="sign"&gt;&lt;/label&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;select name="sign" id="sign" onchange="update()"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;option value="&gt;" selected&gt;&gt;&lt;/option&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;option value="&lt;"&gt;&lt;&lt;/option&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;option value="≥"&gt;≥&lt;/option&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;option value="≤"&gt;≤ &lt;/option&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/select&gt;&lt;span id="span"&gt;0&lt;/span&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;button id="submit"&gt;Giải&lt;/button&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class ="flex-child" id="answers"&gt; <span class="Apple-converted-space"> </span></span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;p id="DIS"&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;p id="NOS"&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;p id="S1"&gt;&lt;/p&gt;&lt;p id="S2"&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;p id="CON"&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><br>
-</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script src=“math.js"&gt;&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
-</body>
+  <head>
+    <title>Bất phương trình bậc 2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="quadratic.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <body>
+    <div id="background">
+      <h1>Giải bất phương trình bậc 2 (ax^2 + bx+ c)</h1>
+      <div class="flex-container">
+        <div class="flex-child" id="input">
+          <input id="a" value="0"> x <sup>2</sup> + <input id="b" value="0"> x +  <input id="c" value="0"> 
+          <label for="sign"></label>
+          <select name="sign" id="sign" onchange="update()">
+            <option value=">" selected>></option>
+            <option value="<"><</option>
+            <option value="≥">≥</option>
+            <option value="≤">≤ </option>
+          </select><span id="span">0</span>
+          <button id="submit">Giải</button>
+        </div>
+    <div class ="flex-child" id="answers">  
+      <p id="DIS"></p>
+      <p id="NOS"></p>
+      <p id="S1"></p><p id="S2"></p>
+      <p id="CON"></p>
+    </div>
+  </div>
+  </div>
+
+    <script src="quadratic.js"></script>
+  </body>
 </html>
