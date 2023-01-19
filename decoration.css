@@ -1,70 +1,61 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2639
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\deftab560
-\pard\pardeftab560\slleading20\partightenfactor0
+h1 {
+  font-family: Comic Sans MS;
+  margin-bottom: 30px;
+  color: rgb(200, 92, 142)
+}
 
-\f0\fs26 \cf0 h1 \{\
-  font-family: Comic Sans MS;\
-  margin-bottom: 30px;\
-  color: rgb(200, 92, 142)\
-\}\
-\
-body \{\
-  font-family: Marker Felt;\
-  text-align: center;\
-  font-size: 20px;\
-  background: url("https://i.pinimg.com/564x/37/4a/96/374a9689e2f2b97c62a835c78d423879.jpg");\
-  \
-\}\
-\
-input, label, select \{\
-  text-align: center;\
-  width: 80px;	\
-  font-size: 28px;\
-\}\
-#sign\{\
-  height: 40px;\
-\}\
-button \{\
-  width: 25%;\
-  margin: 30px auto;\
-  padding: 10px 15px;\
-  background-color: rgb(166, 187, 141);\
-  border: none;\
-  color: white;\
-  cursor: pointer;\
-\}\
-#background \{\
-  margin-left: 45px;\
-  margin-top: 75px;\
-  max-width: 1200px;\
-  background: #fff;\
-  width: 1600px;\
-  padding: 25px 40px 10px 40px;\
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);\
-  height: 75vh;\
-\}\
-#span \{\
-  margin-left: 10px;\
-  font-size: 30px;\
-\}\
-.flex-container\{\
-  display: flex;\
-\}\
-.flex-child \{\
-  flex: 1;\
-  margin-top: 50px;\
-\}\
-\
-.flex-child:first-child \{\
-  padding-top: 10px;\
-  border-right: 10px ridge rgb(229, 224, 255);\
-\} \
-input, select \{\
-  border-radius: 10px;\
-  border: 2px solid rgb(255, 186, 186)\
-;\
-\}}
+body {
+  font-family: Marker Felt;
+  text-align: center;
+  font-size: 20px;
+  background: url("https://i.pinimg.com/564x/37/4a/96/374a9689e2f2b97c62a835c78d423879.jpg");
+  
+}
+
+input, label, select {
+  text-align: center;
+  width: 80px;	
+  font-size: 28px;
+}
+#sign{
+  height: 40px;
+}
+button {
+  width: 25%;
+  margin: 30px auto;
+  padding: 10px 15px;
+  background-color: rgb(166, 187, 141);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+#background {
+  margin-left: 45px;
+  margin-top: 75px;
+  max-width: 1200px;
+  background: #fff;
+  width: 1600px;
+  padding: 25px 40px 10px 40px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  height: 75vh;
+}
+#span {
+  margin-left: 10px;
+  font-size: 30px;
+}
+.flex-container{
+  display: flex;
+}
+.flex-child {
+  flex: 1;
+  margin-top: 50px;
+}
+.flex-child:first-child {
+  padding-top: 10px;
+  border-right: 10px ridge rgb(229, 224, 255);
+} 
+input, select {
+  border-radius: 10px;
+  border: 2px solid rgb(255, 186, 186)
+;
+}
