@@ -21,28 +21,28 @@ function solve() {
   s2.innerHTML = "";
   con.innerHTML = "";
   if (isNaN(a) || isNaN(b) || isNaN(c)) {
-    alert("'a','b','c' phải là các số thực")
+    alert("'a','b','c' phải là các số thực thì pt mới hđ được nha")
     return;
   }
   if (a == 0) {
-    alert("'a' phải khác 0");
+    alert("'a' phải khác 0 nhoa");
     return;
   }
-  dis.innerHTML = 'Delta (b^2 - 4ac) = <span id="D"></span>';
+  dis.innerHTML = ' △ = <span id="D"></span>';
   var d = getID("D");
   d.innerHTML = D.toString();
   //Phương trình
   if (D < 0) {
-    nos.innerHTML = "Phương trình ax^2 + bx + c = 0 vô nghiệm ∀x∈ R";
+    nos.innerHTML = "Phương trình vô nghiệm ∀x∈ R";
   } else if (D == 0) {
     var S = (-b / (2 * a)).toFixed(2);
-    nos.innerHTML = "Phương trình ax^2 + bx + c = 0 có nghiệm kép: "
+    nos.innerHTML = "Phương trình có nghiệm kép: "
     s1.style.display = "inline"
     s1.innerHTML = "x = " + S.toString();
   } else {
     var S1 = ((-b - Math.sqrt(D)) / (2 * a)).toFixed(2),
       S2 = ((-b + Math.sqrt(D)) / (2 * a)).toFixed(2);
-    nos.innerHTML = "Phương trình ax^2 + bx + c = 0 có 2 nghiệm phân biệt x1, x2 là:"
+    nos.innerHTML = "Phương trình có 2 nghiệm phân biệt x1, x2 là:"
     s1.style.display = "inline";
     s2.style.display = "inline";
     s1.innerHTML = "x = " + S1.toString();
